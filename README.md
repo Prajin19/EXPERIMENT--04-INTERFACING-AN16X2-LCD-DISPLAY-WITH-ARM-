@@ -203,12 +203,6 @@ void lcd_display(){
 	Lcd_cursor(&lcd,1,1);
 	Lcd_string(&lcd,"212223230151\n");
 
-	for(int x=0;x<100;x++){
-		Lcd_cursor(&lcd,2,1);
-		Lcd_int(&lcd,x);
-		HAL_Delay(200);
-	}
-	Lcd_clear(&lcd);
 }
 
 ```
